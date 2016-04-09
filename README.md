@@ -12,6 +12,7 @@ Have you ever wanted to make sure you could keep your cat out of trouble while y
 
 ## How I built it
 I used Electric-Imp's interface and hardware for most of it. I also used a continuous rotation servo for moving the light source around, as well as a portable pocket laser pointer. The battery supply for the laser was replaced with a connection to a transistor testing circuit with 2 variable resistors. This connection allowed the power supply to be supplied and withheld dynamically by the state of the pin running into the transistor base junction.
+![Full Device Assembly](starcatcher.jpg)
 
 ## Challenges I ran into
 This was the first time I've had a hardware hack at a hackathon, and I ran into a whole lot of things that I didn't expect. My main challenge was time, especially since I only started this project at around 3:30 PM or so on Saturday. I also had significant trouble with interfacing with the laser. Since the laser pointer was a full product I was just utilizing for this project, I blackboxed much of the electronics inside of it. When setting up the transistor circuit, it was really difficult to get the resistances right, so I had to use variable resistors and play around with them for a while to get everything working.
