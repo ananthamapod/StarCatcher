@@ -1,6 +1,7 @@
 # StarCatcher
 
 IoT device that entertains your cat (and by extension, you!). All you have to do is start it with your phone!
+**[Top 16 at HackPrinceton](https://hackprinceton.com/)**
 
 ![Cat with Laser Pointer](https://s-media-cache-ak0.pinimg.com/236x/c5/40/1a/c5401afb1dab250f2df9d76fbf0abe08.jpg)
 
