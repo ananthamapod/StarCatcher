@@ -75,7 +75,7 @@
                 $("#stop").removeAttr('disabled');
            });
         });
-        $("#stop")..on("click", function() {
+        $("#stop").on("click", function() {
            $.get("https://agent.electricimp.com/HtrEcMGkyMfw?catcher=0", function() {
                 $("#stop").attr('disabled', 'disabled');
                 $("#start").removeAttr('disabled');
