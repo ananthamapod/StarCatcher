@@ -11,6 +11,8 @@ My friend happened to have a laser pointer in his jacket pocket, and for some re
 ## What it does
 Have you ever wanted to make sure you could keep your cat out of trouble while you were gone? Well, now you can. StarCatcher is a little device that keeps your cat entertained and occupied when you're not home to take care of him/her. It uses hardware to move around a laser pointer, and it randomly changes direction, position, and other things to keep your cat excited! Since the device is connected to the internet, all you need to activate or deactivate it is to turn it on or off with an android app. Or just on the web. Couldn't be simpler!
 
+![Starcatcher in Action](https://user-images.githubusercontent.com/5254722/101040989-4831b000-354a-11eb-9cff-0ed4f3806d03.gif)
+
 ## How I built it
 I used Electric-Imp's interface and hardware for most of it. I also used a continuous rotation servo for moving the light source around, as well as a portable pocket laser pointer. The battery supply for the laser was replaced with a connection to a transistor testing circuit with 2 variable resistors. This connection allowed the power supply to be supplied and withheld dynamically by the state of the pin running into the transistor base junction.
 ![Full Device Assembly](starcatcher.jpg)
